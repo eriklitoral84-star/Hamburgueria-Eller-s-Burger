@@ -223,6 +223,15 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
     }
 
     if (deliveryType === 'delivery') {
+      const rawCepDigits = cleanCep(cep);
+      if (!rawCepDigits) {
+        setErrorMessage('Por favor, informe o CEP de entrega.');
+        return;
+      }
+      if (rawCepDigits.length !== 8) {
+        setErrorMessage('Por favor, informe um CEP válido com 8 dígitos (ex: 11669-170).');
+        return;
+      }
       if (!street.trim()) {
         setErrorMessage('Por favor, informe o nome da sua rua / avenida.');
         return;
@@ -525,11 +534,12 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 {/* CEP with automatic lookup */}
                 <div>
                   <label className="block text-[11px] font-bold text-zinc-700 mb-1">
-                    CEP (busca automática de rua e distância)
+                    CEP <span className="text-orange-600 font-extrabold">*</span> (busca automática de rua e distância)
                   </label>
                   <div className="relative">
                     <input
                       type="text"
+                      required
                       value={cep}
                       onChange={handleCepChange}
                       maxLength={9}
