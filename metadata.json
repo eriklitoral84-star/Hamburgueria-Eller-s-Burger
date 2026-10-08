@@ -1,0 +1,6 @@
+{
+  "name": "ELLER'S BURGUER - Cardápio Digital & Delivery",
+  "description": "Smash burgers na crostinha, burgers artesanais, pão brioche dourado na manteiga e batatas hiper crocantes. Peça online e receba rápido! Segunda a Sábado das 18:00 às 23:30 em Caraguatatuba.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

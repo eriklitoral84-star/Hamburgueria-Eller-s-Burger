@@ -1,0 +1,211 @@
+{
+  "restaurant": {
+    "name": "ELLER'S BURGUER",
+    "slug": "ellers-burguer",
+    "tagline": "Smash burgers na crostinha, burgers artesanais, pão brioche dourado na manteiga e batatas hiper crocantes. Peça online e receba rápido!",
+    "type": "HAMBURGUERIA",
+    "phone": "12981089788",
+    "whatsappFormatted": "(12) 98108-9788",
+    "address": {
+      "street": "Rua Antônio Ovídeo Ferreira",
+      "number": "375",
+      "neighborhood": "Perequê Mirim",
+      "city": "Caraguatatuba",
+      "state": "SP",
+      "country": "Brasil",
+      "fullAddress": "Rua Antônio Ovídeo Ferreira, 375 - Perequê Mirim, Caraguatatuba - SP"
+    },
+    "deliveryRatePerKm": 1.5,
+    "minDeliveryFeeBelow2Km": 5.0,
+    "deliveryTime": "35 a 50 min",
+    "pickupTime": "20 a 30 min",
+    "openingHours": "Segunda a Sábado: 18:00 às 23:30",
+    "paymentMethods": [
+      { "id": "pix", "name": "Pix", "description": "Chave Pix enviada no WhatsApp" },
+      { "id": "credito", "name": "Cartão de Crédito", "description": "Levamos a maquininha" },
+      { "id": "debito", "name": "Cartão de Débito", "description": "Levamos a maquininha" },
+      { "id": "dinheiro", "name": "Dinheiro", "description": "Troco disponível" }
+    ]
+  },
+  "categories": [
+    { "id": "smash", "name": "Smash", "icon": "Layers" },
+    { "id": "brutamontes", "name": "Brutamontes", "icon": "Flame" },
+    { "id": "porcoes", "name": "Porções & Batatas", "icon": "Sparkles" },
+    { "id": "bebidas", "name": "Bebidas", "icon": "Coffee" }
+  ],
+  "availableAddons": [
+    { "id": "1-hamburguer", "name": "1 Hambúrguer Adicional", "price": 8.0 },
+    { "id": "2-hamburgueres", "name": "2 Hambúrgueres Adicionais", "price": 15.0 },
+    { "id": "cheddar-dobro", "name": "Queijo Cheddar em Dobro", "price": 10.0 }
+  ],
+  "products": [
+    {
+      "id": "ellers-dois-queijos",
+      "name": "Eller`s dois queijos",
+      "category": "smash",
+      "price": 32.90,
+      "description": "Mais carne, mais queijo, mais sabor. Pão de Brioche, Maionese Hellmann´s, Queijo Cheddar cremoso e Queijo mussarela derretido.",
+      "image": "/images/lanche-1.jpeg",
+      "highlight": true,
+      "tag": "Clássico",
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "ellers-bacon",
+      "name": "Eller's bacon",
+      "category": "smash",
+      "price": 29.90,
+      "description": "Pão brioche, maionese Hellmann's, smash de 120g de carne artesanal, queijo mussarela, bacon crocante, alface, tomate e cebola roxa.",
+      "image": "/images/lanche-2.jpeg",
+      "highlight": true,
+      "tag": "O Queridinho",
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "ellers-salada",
+      "name": "Eller's Salada",
+      "category": "smash",
+      "price": 25.90,
+      "description": "Pão brioche, maionese Hellmann's, SMASH de 120g Artesanal, queijo mussarela derretida, alface crocante, tomate fresco e cebola roxa.",
+      "image": "/images/lanche-3.jpeg",
+      "highlight": false,
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "ellers-egg",
+      "name": "Eller's egg",
+      "category": "smash",
+      "price": 29.90,
+      "description": "Pão brioche, maionese Hellmann's, smash de 120g de carne artesanal, queijo mussarela, ovo frito, alface, tomate e cebola roxa.",
+      "image": "/images/lanche-4.jpeg",
+      "highlight": false,
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "ellers-burguer",
+      "name": "Eller's burguer",
+      "category": "smash",
+      "price": 19.90,
+      "description": "Pão brioche macio, maionese Hellmann's, suculento smash de 120g de carne artesanal e uma generosa camada de queijo mussarela. :)",
+      "image": "/images/lanche-5.jpeg",
+      "highlight": false,
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "pineapple-fire-sz",
+      "name": "Pineapple Fire sz",
+      "category": "smash",
+      "price": 41.90,
+      "description": "Pão australiano, maionese defumada, hambúrguer de 120g com mussarela, geleia artesanal de abacaxi com pimenta, Catupiry empanado e mais uma camada de maionese defumada. Uma combinação agridoce, cremosa e levemente picante, feita para quem gosta de sabores diferentes e marcantes!",
+      "image": "/images/lanche-6.jpeg",
+      "highlight": true,
+      "tag": "Favorito",
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "arranha-ceu",
+      "name": "Arranha céu",
+      "category": "brutamontes",
+      "price": 43.90,
+      "description": "Uma experiência nas alturas. Pão australiano, duplo smash de 120g + 120g, cheddar cremoso, cebola caramelizada, onion rings crocantes, molho barbecue e mostarda com mel.",
+      "image": "/images/lanche-7.jpeg",
+      "highlight": true,
+      "tag": "Especial",
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "gigante-supremo",
+      "name": "gigante supremo",
+      "category": "brutamontes",
+      "price": 63.99,
+      "description": "O maior desafio da casa. Pão brioche, 4 smashs de 120g, 8 fatias de cheddar, maionese defumada especial e uma combinação feita para os gigantes.",
+      "image": "/images/lanche-8.jpeg",
+      "highlight": true,
+      "tag": "Desafio 4x",
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "trinca-insana",
+      "name": "trinca insana",
+      "category": "brutamontes",
+      "price": 49.99,
+      "description": "Para quem tem fome de verdade. Pão brioche, triplo smash de 120g, 6 fatias de cheddar, bacon crocante, cebola roxa, baconnese especial e muito sabor.",
+      "image": "/images/lanche-9.jpeg",
+      "highlight": true,
+      "tag": "Triplo",
+      "addons": ["1-hamburguer", "2-hamburgueres", "cheddar-dobro"]
+    },
+    {
+      "id": "batata-frita-m",
+      "name": "Batata Frita Tamanho M 300 Gramas",
+      "category": "porcoes",
+      "price": 15.00,
+      "description": "Batata frita crocante e sequinha, porção média de 300 gramas.",
+      "image": "/images/batata-m.jpeg",
+      "highlight": false
+    },
+    {
+      "id": "batata-frita-p",
+      "name": "Batata Frita Tamanho P 200 gramas",
+      "category": "porcoes",
+      "price": 11.00,
+      "description": "Batata frita crocante individual, porção de 200 gramas.",
+      "image": "/images/batata-p.jpeg",
+      "highlight": false
+    },
+    {
+      "id": "onion-rings-500g",
+      "name": "Onion Rings 500 gramas",
+      "category": "porcoes",
+      "price": 25.90,
+      "description": "Anéis de cebola selecionados, empanados e dourados. Porção de 500 gramas.",
+      "image": "/images/onion-rings.jpeg",
+      "highlight": false
+    },
+    {
+      "id": "coca-cola-lata-350ml",
+      "name": "Coca Cola Lata original 350 Ml",
+      "category": "bebidas",
+      "price": 7.49,
+      "description": "Refrigerante Coca-Cola sabor original em lata 350ml bem gelada.",
+      "image": "/images/coca-cola.jpeg",
+      "highlight": false
+    },
+    {
+      "id": "coca-cola-zero-350ml",
+      "name": "Coca Cola lata zero 350 Ml",
+      "category": "bebidas",
+      "price": 7.49,
+      "description": "Refrigerante Coca-Cola sem açúcar em lata 350ml bem gelada.",
+      "image": "/images/coca-zero.jpeg",
+      "highlight": false
+    },
+    {
+      "id": "guarana-lata-350ml",
+      "name": "Guaraná lata original 350 Ml",
+      "category": "bebidas",
+      "price": 7.49,
+      "description": "Refrigerante Guaraná sabor original em lata 350ml bem gelada.",
+      "image": "/images/guarana.jpeg",
+      "highlight": false
+    },
+    {
+      "id": "agua-510ml",
+      "name": "Água 510 ml",
+      "category": "bebidas",
+      "price": 5.00,
+      "description": "Água mineral pura sem gás 510ml bem gelada.",
+      "image": "/images/agua.jpeg",
+      "highlight": false
+    },
+    {
+      "id": "agua-com-gas-510ml",
+      "name": "Água c/ gás 510 Ml",
+      "category": "bebidas",
+      "price": 6.00,
+      "description": "Água mineral com gás 510ml bem gelada.",
+      "image": "/images/agua-gas.jpeg",
+      "highlight": false
+    }
+  ]
+}
